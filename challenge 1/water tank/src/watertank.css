@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  row-gap: 10px;
+}
+
+.water__tank {
+  width: 6rem;
+  height: 20rem;
+  border: 2px solid black;
+  border-radius: 20px;
+}
