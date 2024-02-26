@@ -4,3 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+
+.water__tank__container{
+  display: flex;
+  column-gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}

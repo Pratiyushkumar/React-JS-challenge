@@ -6,8 +6,26 @@
 }
 
 .water__tank {
-  width: 6rem;
+  width: 10rem;
   height: 20rem;
   border: 2px solid black;
   border-radius: 20px;
+}
+
+.add__button, .remove__button{
+    outline:none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1rem;
+    width:10rem;
+}
+
+.add__button{
+    background-color: green;
+    color: white;
+}
+
+.remove__button{
+    background-color: black;
+    color: white;
 }
