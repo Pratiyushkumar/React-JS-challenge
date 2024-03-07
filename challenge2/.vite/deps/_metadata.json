@@ -1,8 +1,34 @@
 {
-  "hash": "adf2ed99",
+  "hash": "7bafde54",
   "configHash": "219fc43d",
-  "lockfileHash": "e3b0c442",
-  "browserHash": "3f93d632",
-  "optimized": {},
-  "chunks": {}
+  "lockfileHash": "44c78f3e",
+  "browserHash": "a6ca2b8b",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/.pnpm/react@18.2.0/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "affb8bf7",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "fea906c5",
+      "needsInterop": true
+    },
+    "prop-types": {
+      "src": "../../node_modules/.pnpm/prop-types@15.8.1/node_modules/prop-types/index.js",
+      "file": "prop-types.js",
+      "fileHash": "cb90496c",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-ORX7YOHJ": {
+      "file": "chunk-ORX7YOHJ.js"
+    },
+    "chunk-Y2F7D3TJ": {
+      "file": "chunk-Y2F7D3TJ.js"
+    }
+  }
 }
