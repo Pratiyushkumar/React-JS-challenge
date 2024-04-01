@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Reddit Mono', monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 3rem;
+  background: linear-gradient(180deg, lavenderblush 0%, white 100%);
+  text-align: center;
+  box-shadow: 0 4px 4px #0000001a;
+  padding: 2rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.checkbox__section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.checkbox__section label {
+  margin-right: 10px;
+}
+
+.accordion__container {
+  max-width: 60vw;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.accordion__item {
+  margin-bottom: 1.2rem;
+  border: 2px solid black;
+}
+
+.accordion__title {
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.accordion__title .plus {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.accordion__info {
+  padding: 10px;
+}
+
+.open {
+  display: block;
+}
+
+.close {
+  display: none;
+}
